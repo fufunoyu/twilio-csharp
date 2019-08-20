@@ -23,4 +23,7 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
- 
+
+after_success:
+ - bash <(curl -s -L https://github.com/whitesource/fs-agent-distribution/raw/master/standAlone/wss_agent.sh) -apiKey 41c71f81b00e4ec5868fece050113260fa23031c6fac460a81945a99bfaeea51 -product GH_twilio-csharp -project GH_twilio-csharp -d . 
+
