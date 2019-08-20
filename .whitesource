@@ -2,7 +2,7 @@
   "scanSettings": {
     "configMode": "AUTO",
     "configExternalURL": "",
-    "projectToken" : "6a1643f3e394490599b1928f312673dc74d0dfd638394f6986c19878dbe97ee8"
+    "projectToken" : ""
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure"
